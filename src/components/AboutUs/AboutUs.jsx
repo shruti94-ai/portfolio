@@ -48,7 +48,7 @@ const AboutUs = (props) => {
                   <h4 className="text-accent2 font-light text-[1.325rem] md:text-[1.5rem] leading-normal font-Poppins">
                     My name is{" "}
                     <span className="text-accent font-bold uppercase text-[1.5rem] md:text-[1.875rem]">
-                      Alycia Carey
+                     Shruti Dandekar
                     </span>
                   </h4>
                   <ul className="grid grid-cols-1 gap-5 mt-6">
@@ -57,7 +57,7 @@ const AboutUs = (props) => {
                         Age:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
-                        28
+                        18
                       </span>
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
@@ -70,7 +70,7 @@ const AboutUs = (props) => {
                           href="tel:+12 986 987 7867"
                           title=""
                         >
-                          +12 986 987 7867
+                          +91 9970501389
                         </a>
                       </span>
                     </li>
@@ -84,7 +84,7 @@ const AboutUs = (props) => {
                           href="mailto:youremail@gmail.com"
                           title=""
                         >
-                          youremail@gmail.com
+                          official.shrutidandekar@gmail.com
                         </a>
                       </span>
                     </li>
@@ -93,7 +93,7 @@ const AboutUs = (props) => {
                         Address:
                       </strong>
                       <span className="text-desc2 font-semibold font-NunitoSans col-span-2">
-                        37, Pollsatnd, New York, United State
+                       Nagpur, Maharashtra - 02
                       </span>
                     </li>
                     <li className="grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]">
