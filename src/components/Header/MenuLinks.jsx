@@ -6,7 +6,16 @@ const MenuLinks = () => {
   return (
     <nav className="relative hidden lg:block">
       <ul className="flex flex-col lg:flex-row gap-4 lg:gap-10">
-        <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
+      <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
+          <Link
+            className="group-hover:text-accent text-accent2 pr-5 relative block"
+            to="/"
+            title="Home"
+          >
+            Home
+          </Link>
+        </li>
+        {/* <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
             Home
             <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
@@ -34,8 +43,8 @@ const MenuLinks = () => {
               </Link>
             </li>
           </ul>
-        </li>
-        <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
+        </li> */}
+        {/* <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
             Blog
             <FiChevronDown className="absolute right-0 top-[4px]"></FiChevronDown>
@@ -72,7 +81,7 @@ const MenuLinks = () => {
               </Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
           <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
             Portfolio

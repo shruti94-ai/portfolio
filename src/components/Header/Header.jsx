@@ -34,7 +34,7 @@ const Header = () => {
             <div className="flex items-center justify-between w-full topbarInner">
               <div className="logo inline-block max-w-[50%]">
                 <Link to="/" title="Fastone">
-                  <img src={Logo} alt="Logo"></img>
+                  {/* <img src={Logo} alt="Logo"></img> */}
                 </Link>
                 {/* Logo */}
               </div>
